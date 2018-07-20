@@ -3,6 +3,27 @@
   
     
     <entry>
+      <title>启动SpringBoot项目的三种方式</title>
+      <link href="/2018/07/20/%E5%90%AF%E5%8A%A8SpringBoot%E9%A1%B9%E7%9B%AE%E7%9A%84%E4%B8%89%E7%A7%8D%E6%96%B9%E5%BC%8F/"/>
+      <url>/2018/07/20/%E5%90%AF%E5%8A%A8SpringBoot%E9%A1%B9%E7%9B%AE%E7%9A%84%E4%B8%89%E7%A7%8D%E6%96%B9%E5%BC%8F/</url>
+      <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><ol><li>开发环境下直接由IDE启动项目。</li><li>终端进入项目目录输入 <code>mvn springboot:run</code> ,通过maven启动项目。</li><li>终端进入项目目录输入 <code>mvn install</code>，先构建项目。随后进入target子目录，再输入<code>java -jar 项目名称</code>启动项目。</li></ol>]]></content>
+      
+      <categories>
+          
+          <category> SpringBoot </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> SpringBoot </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>2018年第一次游泳小记</title>
       <link href="/2018/07/05/2018%E5%B9%B4%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%B8%B8%E6%B3%B3%E5%B0%8F%E8%AE%B0/"/>
       <url>/2018/07/05/2018%E5%B9%B4%E7%AC%AC%E4%B8%80%E6%AC%A1%E6%B8%B8%E6%B3%B3%E5%B0%8F%E8%AE%B0/</url>
@@ -78,7 +99,7 @@
       <title>最近着迷的两首ACG歌曲</title>
       <link href="/2018/04/23/%E6%9C%80%E8%BF%91%E7%9D%80%E8%BF%B7%E7%9A%84%E4%B8%A4%E9%A6%96ACG%E6%AD%8C%E6%9B%B2/"/>
       <url>/2018/04/23/%E6%9C%80%E8%BF%91%E7%9D%80%E8%BF%B7%E7%9A%84%E4%B8%A4%E9%A6%96ACG%E6%AD%8C%E6%9B%B2/</url>
-      <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>这两首都是《Darling in the FranXX》动画的ED。<br>第一首是ED2，不知为何听起来莫名伤感，以iframe方式展现。</p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=547976226&auto=0&height=66"></iframe><p>第二首是ED1，结合画面看效果更佳，每次动画结束我都不跳，非常有味道，这次以aplayer插件形式展现。</p>        <div id="aplayer-LwVaJGjR" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">            <pre class="aplayer-lrc-content"></pre>        </div>        <script>          var ap = new APlayer({            element: document.getElementById("aplayer-LwVaJGjR"),            narrow: false,            autoplay: false,            showlrc: false,            music: {              title: "トリカゴ",              author: "XX:me",              url: "http://music.163.com/song/media/outer/url?id=547971231.mp3",              pic: "",              lrc: ""            }          });          window.aplayers || (window.aplayers = []);          window.aplayers.push(ap);        </script><p>完整版视频在此：</p><iframe height="480" width="720" src="//player.bilibili.com/player.html?aid=21279713&cid=34965951&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe><p>题外话：贴网易云音乐还是用iframe外链方便。</p>]]></content>
+      <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>这两首都是《Darling in the FranXX》动画的ED。<br>第一首是ED2，不知为何听起来莫名伤感，以iframe方式展现。</p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=547976226&auto=0&height=66"></iframe><p>第二首是ED1，结合画面看效果更佳，每次动画结束我都不跳，非常有味道，这次以aplayer插件形式展现。</p>        <div id="aplayer-DpFamxHe" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">            <pre class="aplayer-lrc-content"></pre>        </div>        <script>          var ap = new APlayer({            element: document.getElementById("aplayer-DpFamxHe"),            narrow: false,            autoplay: false,            showlrc: false,            music: {              title: "トリカゴ",              author: "XX:me",              url: "http://music.163.com/song/media/outer/url?id=547971231.mp3",              pic: "",              lrc: ""            }          });          window.aplayers || (window.aplayers = []);          window.aplayers.push(ap);        </script><p>完整版视频在此：</p><iframe height="480" width="720" src="//player.bilibili.com/player.html?aid=21279713&cid=34965951&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe><p>题外话：贴网易云音乐还是用iframe外链方便。</p>]]></content>
       
       <categories>
           
